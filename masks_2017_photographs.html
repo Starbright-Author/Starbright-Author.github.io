@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Masks 2017</title>
+<meta charset="utf-8">
+<link rel="icon" href="img/favicon.ico" type="image/x-icon">
+<link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+<link rel="stylesheet" href="css/bootstrap.css" type="text/css" media="screen">
+<link rel="stylesheet" href="css/responsive.css" type="text/css" media="screen">
+<link rel="stylesheet" href="css/style.css" type="text/css" media="screen">
+<link rel="stylesheet" href="css/touchTouch.css" type="text/css" media="screen">
+<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300' rel='stylesheet' type='text/css'>
+<script src="js/jquery.js"></script>
+<script src="js/superfish.js"></script>
+<script src="js/jquery.easing.1.3.js"></script>
+<script src="js/jquery.cookie.js"></script>
+<script src="js/touchTouch.jquery.js"></script>
+<script>
+if ($(window).width() > 1024) {
+    document.write("<" + "script src='js/jquery.preloader.js'></" + "script>");
+}
+</script>
+<script>
+jQuery(window).load(function () {
+    $x = $(window).width();
+    if ($x > 1024) {
+        jQuery("#content .row").preloader();
+    }
+    jQuery('.magnifier').touchTouch();
+    jQuery('.spinner').animate({
+        'opacity': 0
+    }, 1000, 'easeOutCubic', function () {
+        jQuery(this).css('display', 'none')
+    });
+});
+</script>
+<!--<![endif]-->
+<!--[if lt IE 9]>
+<script src="js/html5.js"></script>
+<link rel="stylesheet" href="css/docs.css" type="text/css" media="screen">
+<link rel="stylesheet" href="css/ie.css" type="text/css" media="screen">
+<link href='http://fonts.googleapis.com/css?family=Open+Sans:300' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Open+Sans:400' rel='stylesheet' type='text/css'>
+<![endif]-->
+</head>
+<body>
+<div class="spinner"></div>
+
+<div class="bg-content">
+  <div id="content">
+    <div class="container">
+      <div class="row">
+        <article class="span12">
+          <h3>Portfolio</h3>
+        </article>
+        <div class="clear"></div>
+        <ul class="portfolio clearfix">
+          <li class="box"><a href="img/masks_2017_image-big1.jpg" class="magnifier"><img alt="" src="img/masks_2017_image-small1.jpg"></a></li>
+          <li class="box"><a href="img/masks_2017_image-big2.jpg" class="magnifier"><img alt="" src="img/masks_2017_image-small2.jpg"></a></li>
+          <li class="box"><a href="img/masks_2017_image-big3.jpg" class="magnifier"><img alt="" src="img/masks_2017_image-small3.jpg"></a></li>
+          <li class="box"><a href="img/masks_2017_image-big4.jpg" class="magnifier"><img alt="" src="img/masks_2017_image-small4.jpg"></a></li>
+          <li class="box"><a href="img/masks_2017_image-big5.jpg" class="magnifier"><img alt="" src="img/masks_2017_image-small5.jpg"></a></li>
+          <li class="box"><a href="img/masks_2017_image-big6.jpg" class="magnifier"><img alt="" src="img/masks_2017_image-small6.jpg"></a></li>
+          <li class="box"><a href="img/masks_2017_image-big7.jpg" class="magnifier"><img alt="" src="img/masks_2017_image-small7.jpg"></a></li>
+          <li class="box"><a href="img/masks_2017_image-big8.jpg" class="magnifier"><img alt="" src="img/masks_2017_image-small8.jpg"></a></li>
+          <li class="box"><a href="img/masks_2017_image-big9.jpg" class="magnifier"><img alt="" src="img/masks_2017_image-small9.jpg"></a></li>
+          <li class="box"><a href="img/masks_2017_image-big10.jpg" class="magnifier"><img alt="" src="img/masks_2017_image-small10.jpg"></a></li>
+          <li class="box"><a href="img/masks_2017_image-big11.jpg" class="magnifier"><img alt="" src="img/masks_2017_image-small11.jpg"></a></li>
+          <li class="box"><a href="img/masks_2017_image-big12.jpg" class="magnifier"><img alt="" src="img/masks_2017_image-small12.jpg"></a></li>
+          <li class="box"><a href="img/masks_2017_image-big13.jpg" class="magnifier"><img alt="" src="img/masks_2017_image-small13.jpg"></a></li>
+          <li class="box"><a href="img/masks_2017_image-big14.jpg" class="magnifier"><img alt="" src="img/masks_2017_image-small14.jpg"></a></li>
+          <li class="box"><a href="img/masks_2017_image-big15.jpg" class="magnifier"><img alt="" src="img/masks_2017_image-small15.jpg"></a></li>
+          <li class="box"><a href="img/masks_2017_image-big16.jpg" class="magnifier"><img alt="" src="img/masks_2017_image-small16.jpg"></a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+<script src="js/bootstrap.js"></script>
+</body>
+</html>
